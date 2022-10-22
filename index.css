@@ -121,3 +121,8 @@ footer{
     align-items:flex-end;
     justify-content: center;
 }
+
+.reading{
+    background-color: rgb(211, 255, 211);
+    padding: 2%;
+}
