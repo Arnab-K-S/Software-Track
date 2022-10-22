@@ -37,6 +37,30 @@
         <div class="card" id="c3"><h2>Complaint</h2></div>
         <div class="card" id="c4"><h2>Reading Section</h2></div>
     </div>
+<div class="forms">
+    <div class="div1">
+    <h3>Dispose Waste</h3>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter Your Name"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter Your Name"><br><br>
+        <label for="loc">Location:</label><br>
+        <input type="text" id="loc" name="loc" placeholder="Enter Your Location"><br><br>
+        <label for="waste">Choose waste type:</label>
+        <select name="waste" id="waste">
+            <option value="Bio-Degradable">Bio-Degradable</option>
+            <option value="Non-Degradable">Non-Degradable</option>
+        </select>
+        <br>
+        <label for="time">Time:</label><br>
+        <input type="time" id="time" name="time"><br><br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</div>    
 </body>
 <script src="index.js"></script>
 </html>
