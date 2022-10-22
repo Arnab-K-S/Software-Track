@@ -53,7 +53,6 @@ h1{
     list-style-type: none;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 5rem;
     position: absolute;
     left: 60%;
     top: 90%;
@@ -64,4 +63,46 @@ h1{
 
 #scroller{
     height: 100vh;
+}
+.box2{
+    display: flex;
+    height: 20rem;
+}
+.card{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    background-position: center;
+}
+#c1{
+    background-image: linear-gradient(rgba(80, 80, 255, 0.619),rgba(0, 0, 255, 0.607)),url("https://media.istockphoto.com/photos/garbage-truck-ca-picture-id1315290086?k=20&m=1315290086&s=612x612&w=0&h=OcW3Fzc_WtaFbeO-ahluz5FWAX6kpNj11a3tS0BAqHk=");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c2{
+    background-image: linear-gradient(rgba(81, 250, 157, 0.619),rgba(0, 129, 30, 0.607)),url("https://cdn.britannica.com/02/141102-050-82CB8A59/Bulldozers-landfill.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c3{
+    background-image: linear-gradient(rgba(255, 242, 0, 0.619),rgba(226, 229, 52, 0.607)),url("https://economictimes.indiatimes.com/photo/68388575.cms");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c4{
+    background-image: linear-gradient(rgba(250, 81, 81, 0.619),rgba(0, 129, 30, 0.607)),url("https://cdn.shopify.com/s/files/1/0483/9954/8579/products/LL_H_Ecosystems_2_1024x1024@2x.jpg?v=1619691188");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+}
+
+.card:hover{
+    box-shadow: 1rem 1rem 1rem 1rem black;
 }
